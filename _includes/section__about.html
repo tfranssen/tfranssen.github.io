@@ -1,0 +1,35 @@
+<section class="about">
+  {% if include.divider == true %}
+  <div class="wrap"><hr /></div>
+  {% endif %}
+  <div class="wrap grid">
+    <div class="about__image">
+      <!--<img src="{{ '/images/profile.jpg' | relative_url }}" alt="" />-->
+
+      {% include component-socials.html %}
+    </div>
+
+    <div class="about__content">
+      <h2 class="title">Hallo! Ik ben Thijs, leuk je te ontmoeten</h2>
+      <p class="subtitle subtitle--light">
+        Ik heb een passie voor techniek en innovatie.
+      </p>
+
+      <p>
+        Sinds 2015 werk ik in de wereld van innovatie, productontwikkeling,
+        data, prototypes en Internet of Things Ik heb veel ervaring met het snel
+        testen van ideeën. Ik denk graag mee over de mogelijkheden die vandaag
+        de dag beschikbaar zijn. Ik kan je helpen met 3D printen, 3D modelleren,
+        programmeren, data, Internet of Things, sensoren, PLC design,
+        connectiviteit en alles wat hiermee te maken heeft.
+      </p>
+      <p>
+        Ik hoog graag waar jij mee bezig bent en hoe we elkaar kunnen helpen!
+      </p>
+
+      <!--<a href="#" class="cta button--fill contact-trigger js-contact"
+        >Get in Touch</a
+      >-->
+    </div>
+  </div>
+</section>
