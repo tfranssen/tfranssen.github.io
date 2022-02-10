@@ -11,11 +11,32 @@ gallery_images:
   - faunapassagekast.png
 ---
 
-Nederland kent duizenden fuanapassages. Deze passages zijn belangrijk voor het ontsnipperen van het leefgebied van diersoorten zoals dassen, vossen en padden. Om het de status van deze passages te monitoren is een oplossing gevonden die deze tunnels 24/7 monitort.
+Nederland kent enkele duizenden faunapassages. Deze passages zijn belangrijk voor het ontsnipperen van het leefgebied van diersoorten zoals dassen, vossen en padden. Het is van belang dat dat deze tunnels goed onderhouden worden, wanneer dit niet gebeurd raken de tunnels overgroeid of verstopt. Om de status van deze passages te monitoren is een oplossing gevonden die deze tunnels 24/7 monitort. Wanneer blijkt dat het gebruik van de tunnels afneemt of stopt wordt een aannemer ingeschakelt om de tunnel te controleren.
 
-Werking:
+#### Werking:
 
-- De camera is continu actief en maakt opnamen van beweging in de faunavoorziening.
+- De camera maakt continu opnames
+- Slimme software herkent beweging door opeenvolgende beelden met elkaar te vergelijken
 - Waarnemingen worden direct doorgestuurd, via een 4G verbinding.
 - Automatische beeldherkenning verwerkt de data, naar soort, datum en tijdstip.
 - Op een platform wordt deze data automatisch verwerkt naar gebruik, activiteitenpatronen en andere informatie.
+
+#### Videos
+
+{% include post-components/video.html
+	url = "https://www.youtube.com/embed/eFCDlmxa0Fo"
+	full_width = false
+%}
+
+{% include post-components/video.html
+	url = "https://www.youtube.com/embed/3H1Gh8w5_gI"
+	full_width = false
+%}
+
+#### Foto's
+
+{% include post-components/gallery.html
+	columns = 2
+	full_width = false
+	images = "/images/projects/Setup3_licht.png,/images/projects/Setup2_licht.png"
+%}
