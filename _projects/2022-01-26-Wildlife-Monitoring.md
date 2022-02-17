@@ -21,6 +21,17 @@ Nederland kent enkele duizenden faunapassages. Deze passages zijn belangrijk voo
 - Automatische beeldherkenning verwerkt de data, naar soort, datum en tijdstip.
 - Op een platform wordt deze data automatisch verwerkt naar gebruik, activiteitenpatronen en andere informatie.
 
+{% include post-components/video.html
+	url = "https://www.youtube.com/embed/duhMn5CA5Og"
+	full_width = false
+%}
+
+#### Totstandkoming
+
+Dit project is een initatief van de Provincie Noord-Holland (Nico Jonker), 3D Makers Zone en PWN. In januari 2021 ben ik betrokken geraakt bij dit project. Destijds lag de focus nog op paddentunnels. Gedurende 2021 is de shift gemaakt naar grotere tunnels en het toepassen van een camera.
+
+Vroege vogels heeft in 2021 een leuke rapportage gemaakt over de paddentunnels. Deze is hier terug te vinden: https://www.bnnvara.nl/vroegevogels/artikelen/werken-de-paddentunnels-wel
+
 #### Videos
 
 {% include post-components/video.html
